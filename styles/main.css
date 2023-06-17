@@ -52,8 +52,9 @@ h2 {
   color: #f3f4f6;
 }
 
-.anchor :hover{
+.anchor{
 
+display: inline;
 
 }
 
@@ -62,7 +63,11 @@ h2 {
   gap: 1rem;
   
 }
+.social1{
 
+  display: inline;
+
+}
 .recommendations-container, .testimonials-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -129,5 +134,17 @@ img.next-image {
     grid-template-columns: auto;
 
   }
- 
+  .social1{
+    color: white;
+    display: inline;
+    text-decoration: underline;
+  }
+  .anchor{
+    color: white;
+    display: inline;
+    text-decoration: underline;
+
+
+    
+    }
 }
