@@ -81,7 +81,7 @@ h2 {
 .sectionp .prlink {
   display: flex;
   gap: 1rem;
-  font-size: 1.5rem;
+  font-size: 19px;
   font-variation-settings: 'wght' 400;
 }
 .sectionp .prspan {
@@ -143,9 +143,11 @@ h2 {
   border-radius: 5px;
   border-bottom: 1px solid #6d6d6d4d;
 }
-/* .recommendation-item:hover, .testimonial-item:hover {
-  background: #121212;
-} */
+ .testimonial-item1:hover {
+
+
+}
+
 .title {
   background: linear-gradient(to left, #ededed 65%, #eb800d 100%);
   -webkit-background-clip: text;
