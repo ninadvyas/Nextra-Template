@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-variation-settings: 'wght' 650;
+  font-variation-settings: 'wght' 850;
 }
 h1 {
   font-variation-settings: 'wght' 850;
@@ -50,6 +50,54 @@ h2 {
 }
 .icon :hover{
   color: #f3f4f6;
+}
+
+.anchor :hover{
+
+
+}
+
+.social{
+  display: flex;
+  gap: 1rem;
+  
+}
+
+.recommendations-container, .testimonials-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.recommendation-item, .testimonial-item {
+  padding: 10px 25px;
+  background: #0c0c0c;
+
+  color: #d3d3d3;
+  border-radius: 5px;
+  border-bottom: 1px solid #6d6d6d4d;
+}
+
+.recommendation-item:hover, .testimonial-item:hover {
+  background: #121212;
+}
+.title{
+  background: linear-gradient(to left, #ededed  65%, #eb800d 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.title1{
+  background: linear-gradient(to left, #41b5eb 55%,#28e11b 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.title2{
+  background: linear-gradient(to left, #7112c9 65%, #d6aee8 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
 }
 @media screen and (min-device-pixel-ratio: 1.5),
   screen and (min-resolution: 1.5dppx) {
@@ -67,27 +115,19 @@ img.next-image {
   margin: 0;
 }
 
-.prose a {
+.prose .anchor {
   color: #0074de;
 }
 
 .nav-line .nav-link {
   color: #69778c;
 }
-.recommendations-container, .testimonials-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  column-gap: 20px;
-  row-gap: 20px;
-}
-.recommendation-item, .testimonial-item {
-  padding: 10px 25px;
-  background: #0c0c0c;
-  color: #d3d3d3;
-  border-radius: 5px;
-  border-bottom: 1px solid #6d6d6d4d;
-}
 
-.recommendation-item:hover, .testimonial-item:hover {
-  background: #121212;
+ 
+@media (max-width: 600px) {
+  .testimonials-container{
+    grid-template-columns: auto;
+
+  }
+ 
 }
