@@ -56,6 +56,7 @@ h2 {
 .social {
   display: flex;
   gap: 1rem;
+
 }
 .social1 {
   display: inline;
@@ -154,12 +155,12 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 .title1 {
-  background: linear-gradient(to left, #41b5eb 55%, #28e11b 100%);
+  background: linear-gradient(to left, #c7d0d3 20%, #e11b1b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .title2 {
-  background: linear-gradient(to left, #7112c9 65%, #d6aee8 100%);
+  background: linear-gradient(to left, #d6aee8 65%,  #7112c9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

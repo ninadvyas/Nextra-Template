@@ -9,20 +9,9 @@ import {
 
 
 export default {
- 
-    h1: ({ children }) => (
-      <h1 style={{
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
-        backgroundClip: 'text',
-        backgroundImage: 'linear-gradient(90deg,#FFFFFF,#f5b402)',
-      }}
-      >
-        {children}
-      </h1>
-    ),
+
   footer: (
-    <small style={{ display: 'block', fontSize: '14px', marginTop: '8rem' }}>
+    <small style={{ fontSize: '14px', paddingTop:'7rem',display:'block' }}>
       <time>{YEAR}</time> © Ninad Vyas
       <a>
         <div style={{ display: 'flex' }}>
