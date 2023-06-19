@@ -53,17 +53,20 @@ h2 {
 }
 .boxiconin{
   height: 2.5rem;
+  max-width: 80%;
   display: flex;
   border: 0.5px solid rgb(38 38 38);;
   border-radius: 5%;
   justify-content: space-between;
   transition: all;
   text-decoration: none;
+
 }
 .boxiconin:hover{
   background-color:rgb(23 23 23);
 
 }
+
 .boxiconin1{
   display: flex;
   align-items: center;
@@ -132,6 +135,17 @@ h2 {
 .foo:hover{
   text-decoration: underline;
 }
+.footicon{
+  margin-left: 24rem;
+  gap: 0.25rem;
+}
+.footiconin{
+  text-decoration: none;
+}
+.footiconin:hover{
+  text-decoration: underline;
+}
+
 /* project page css */
 .recommendations-container,
 .testimonials-container {
@@ -238,11 +252,18 @@ img.next-image {
     display: inline;
     text-decoration: underline;
   }
+  .footicon{
+    margin-left: 6rem;
+    gap: 0.25rem;
+    
+  }
+  
 }
 @media (min-width: 768px) { 
   .boxicon{
     flex-direction: row;
     gap: 0.5rem;
+
     
   }
  }
