@@ -45,22 +45,46 @@ h1 {
 h2 {
   font-variation-settings: 'wght' 750;
 }
-.icon :hover {
-  color: #f3f4f6;
+.boxicon{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  
 }
+.boxiconin{
+  height: 2.5rem;
+  display: flex;
+  border: 0.5px solid rgb(38 38 38);;
+  border-radius: 5%;
+  justify-content: space-between;
+  transition: all;
+  text-decoration: none;
+}
+.boxiconin:hover{
+  background-color:rgb(23 23 23);
 
+}
+.boxiconin1{
+  display: flex;
+  align-items: center;
+  margin-left: 0.75rem;
+  font-size: 16px;
+  color: rgb(203, 203, 203);
+
+}
+.icons{
+  color: rgb(203, 203, 203);
+
+}
+.boxiconin2{
+  margin-left: 0.75rem;
+  color: rgb(203, 203, 203);
+
+}
 .anchor {
   display: inline;
 }
 
-.social {
-  display: flex;
-  gap: 1rem;
-
-}
-.social1 {
-  display: inline;
-}
 .sectionp {
 
 
@@ -91,6 +115,22 @@ h2 {
 }
 .sectionp .icon {
   margin-top: 0.5rem;
+}
+.icon1:hover{
+  color: white;
+}
+.cone{
+  display: flex;
+  text-decoration: none;
+
+}
+.foo{
+  text-decoration: none;
+  display: flex;
+  color: rgb(203, 203, 203);
+}
+.foo:hover{
+  text-decoration: underline;
 }
 /* project page css */
 .recommendations-container,
@@ -192,14 +232,17 @@ img.next-image {
   .testimonials-container {
     grid-template-columns: auto;
   }
-  .social1 {
-    color: white;
-    display: inline;
-    text-decoration: underline;
-  }
+ 
   .anchor {
     color: white;
     display: inline;
     text-decoration: underline;
   }
 }
+@media (min-width: 768px) { 
+  .boxicon{
+    flex-direction: row;
+    gap: 0.5rem;
+    
+  }
+ }

@@ -5,17 +5,26 @@ import {
   FaTwitter,
   FaYoutubeSquare
 } from 'react-icons/fa'
+import {
+  BsChatSquareDotsFill
 
-
+} from 'react-icons/bs'
 
 export default {
 
   footer: (
-    <small style={{ fontSize: '14px', paddingTop:'7rem',display:'block' }}>
-      <time>{YEAR}</time> © Ninad Vyas
-      <a>
-        <div style={{ display: 'flex' }}>
-          <a href="https://www.linkedin.com/in/ninad-vyas-b767491a3/" className='icon'>
+    <small style={{ fontSize: '14px',display:'block',marginTop:'6rem',display:'flex',gap:'24rem' }}>
+      <span><time>{YEAR}</time> © Ninad Vyas</span>
+
+        <div style={{ display: 'flex',  textDecoration: 'none' }}>
+  <a             href="mailto:ninadvyas07@gmail.com"
+ className='foo'>      <BsChatSquareDotsFill style={{
+  color: 'rgb(203, 203, 203)',
+
+                fontSize: '18.5px',
+                width: '30px',marginTop:'4px'
+              }} />Stay Connected!</a> 
+          {/* <a href="https://www.linkedin.com/in/ninad-vyas-b767491a3/" className='icon1'>
             <FaLinkedin
               style={{
                 color: '#7e7e7e',
@@ -23,8 +32,8 @@ export default {
                 width: '30px'
               }}
             />
-          </a>
-          <a href="https://www.linkedin.com/in/ninad-vyas-b767491a3/" className='icon'>
+          </a> */}
+          {/* <a href="https://github.com/NinadVyas" className='icon1'>
             {' '}
             <FaGithub
               style={{
@@ -34,7 +43,7 @@ export default {
               }}
             />
           </a>
-          <a href="https://www.linkedin.com/in/ninad-vyas-b767491a3/" className='icon'>
+          <a href="https://twitter.com/NinadVyas87" className='icon1'>
             {' '}
             <FaTwitter
               style={{
@@ -44,7 +53,7 @@ export default {
               }}
             />
           </a>
-          <a href="https://www.linkedin.com/in/ninad-vyas-b767491a3/" className='icon'>
+          <a href="https://www.youtube.com/channel/UC-GFeuKUUYdVEqrjMJtItDQ" className='icon1'>
             {' '}
             <FaYoutubeSquare
               style={{
@@ -53,9 +62,9 @@ export default {
                 width: '30px'
               }}
             />
-          </a>
+          </a> */}
         </div>
-      </a>
+
       <style jsx>{`
         a {
           float: right;
