@@ -55,17 +55,13 @@ h2 {
   height: 2.5rem;
   max-width: 80%;
   display: flex;
-  border: 0.5px solid rgb(38 38 38);;
   border-radius: 5%;
   justify-content: space-between;
   transition: all;
   text-decoration: none;
 
 }
-.boxiconin:hover{
-  background-color:rgb(23 23 23);
 
-}
 
 .boxiconin1{
   display: flex;
