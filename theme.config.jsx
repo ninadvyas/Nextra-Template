@@ -9,8 +9,12 @@ import {
   BsChatSquareDotsFill
 
 } from 'react-icons/bs'
+import CustomHead from './components/custom-head'
+
 
 export default {
+
+  head: CustomHead,
 
   footer: (
     <small style={{ fontSize: '14px',display:'block',marginTop:'6rem',display:'flex' }}>
@@ -45,16 +49,14 @@ export default {
         }
       `}</style>
     </small>
-  ),
+  ), 
   components: {
     logo: (
       <>
-        <svg>...</svg>
         <span>Ninad Vyas</span>
       </>
     ),
-    titleSuffix: " – Ninad Vyas ",
-    back: 'Read More →',
+    titleSuffix: "Ninad Vyas ",
   },
   darkMode: false
 }
