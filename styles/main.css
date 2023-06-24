@@ -45,6 +45,14 @@ h1 {
 h2 {
   font-variation-settings: 'wght' 750;
 }
+.btmmore {
+  text-decoration: underline;
+  width: 9rem;
+}
+.btmmore:hover{
+color: #e11b1b;
+
+}
 .boxicon{
   display: flex;
   flex-direction: row;
@@ -100,8 +108,6 @@ h2 {
 
 }
 .sectionp {
-
-
   width: 19.5rem;
   height: 10rem;
   color: white;
@@ -109,6 +115,7 @@ h2 {
   margin-top: 10px;
   margin-left: 1rem;
 }
+
 .sectionp span {
   font-size: 1.5rem;
   font-variation-settings: 'wght' 850;
@@ -121,15 +128,21 @@ h2 {
   display: flex;
   gap: 1rem;
   font-size: 19px;
-  font-variation-settings: 'wght' 400;
+  font-variation-settings: 'wght' 550;
 }
 .sectionp .prspan {
   font-size: 1rem;
   font-variation-settings: 'wght' 450;
 }
 .sectionp .icon {
-  margin-top: 0.5rem;
+  margin-top: 2px;
+font-size: 25px;
 }
+.sectionp .icon:hover {
+  color: rgb(193, 193, 215);
+
+}
+
 .icon1:hover{
   color: white;
 }
@@ -209,13 +222,14 @@ h2 {
   border-radius: 5px;
   border-bottom: 1px solid #6d6d6d4d;
 }
- .testimonial-item1:hover {
+.testimonial-item4:hover {
+
 
 
 }
 
 .title {
-  background: linear-gradient(to left, #ededed 65%, #eb800d 100%);
+  background: linear-gradient(to left, #ededed 60%, #eb800d 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

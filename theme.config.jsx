@@ -1,9 +1,6 @@
 const YEAR = new Date().getFullYear()
 import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-  FaYoutubeSquare
+  FaHandshake
 } from 'react-icons/fa'
 import {
   BsChatSquareDotsFill
@@ -21,14 +18,14 @@ export default {
       <span><time>{YEAR}</time> © Ninad Vyas</span>
 
         <div className='footicon'>
-          <a href="mailto:ninadvyas07@gmail.com" className='footiconin'>
+          <a href="https://www.linkedin.com/in/ninad-vyas-b767491a3/" className='footiconin'>
            <a className='icon1'>
-            <BsChatSquareDotsFill
+            <FaHandshake
               style={{
-                color: '#7e7e7e',
+                color: '#6e7e7e',
                 fontSize: '18.5px',
                 width: '30px',
-                marginTop:'5px'
+                marginTop:'3px'
               }}
             />
           </a>Stay Connected!</a>
