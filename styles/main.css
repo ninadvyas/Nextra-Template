@@ -49,16 +49,15 @@ h2 {
   text-decoration: underline;
   width: 9rem;
 }
-.btmmore:hover{
-color: #e11b1b;
-
+.btmmore:hover {
+  color: #e11b1b;
 }
-.boxicon{
+.boxicon {
   display: flex;
   flex-direction: row;
   gap: 2.5rem;
 }
-.boxiconin{
+.boxiconin {
   height: 2.5rem;
   max-width: 80%;
   display: flex;
@@ -66,46 +65,36 @@ color: #e11b1b;
   justify-content: space-between;
   transition: all;
   text-decoration: none;
-
 }
-.boxiconin:hover{
-
-
+.boxiconin:hover {
 }
-.boxiconin2:hover{
+.boxiconin2:hover {
   color: #eb800d;
   text-decoration: underline #eb800d;
-
 }
-.boxiconin3:hover{
+.boxiconin3:hover {
   color: #eb800d;
-
 }
-.boxiconin1{
+.boxiconin1 {
   display: flex;
   align-items: center;
   font-size: 16px;
   color: rgb(203, 203, 203);
-
 }
-.icons{
+.icons {
   color: rgb(203, 203, 203);
-
 }
-.boxiconin2{
+.boxiconin2 {
   margin-left: 0.5rem;
   color: rgb(203, 203, 203);
-
 }
 .anchor {
   display: inline;
   text-decoration: none;
   color: #eb800d;
-  
 }
-.anchor:hover{
+.anchor:hover {
   text-decoration: underline #eb800d;
-
 }
 .sectionp {
   width: 19.5rem;
@@ -124,11 +113,28 @@ color: #e11b1b;
   font-size: 1.5rem;
   font-variation-settings: 'wght' 750;
 }
+.prinlink {
+  display: flex;
+  text-decoration: none;
+  background: linear-gradient(to right, #f32170, #ff6b08, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+.prinlink:hover {
+  
+}
 .sectionp .prlink {
   display: flex;
   gap: 1rem;
   font-size: 19px;
   font-variation-settings: 'wght' 550;
+  border-radius: 3%;
+  width: 145px;
+  text-align: center;
+}
+.prlink:hover{
+  background-color: white;
 }
 .sectionp .prspan {
   font-size: 1rem;
@@ -136,37 +142,35 @@ color: #e11b1b;
 }
 .sectionp .icon {
   margin-top: 2px;
-font-size: 25px;
-}
-.sectionp .icon:hover {
-  color: rgb(193, 193, 215);
+  font-size: 25px;
+  margin-left: 7px;
+  color: #ff6b08;
 
 }
 
-.icon1:hover{
+.icon1:hover {
   color: white;
 }
-.cone{
+.cone {
   display: flex;
   text-decoration: none;
-
 }
-.foo{
+.foo {
   text-decoration: none;
   display: flex;
   color: rgb(203, 203, 203);
 }
-.foo:hover{
+.foo:hover {
   text-decoration: underline;
 }
-.footicon{
+.footicon {
   margin-left: 24rem;
   gap: 0.25rem;
 }
-.footiconin{
+.footiconin {
   text-decoration: none;
 }
-.footiconin:hover{
+.footiconin:hover {
   text-decoration: underline;
 }
 
@@ -223,9 +227,6 @@ font-size: 25px;
   border-bottom: 1px solid #6d6d6d4d;
 }
 .testimonial-item4:hover {
-
-
-
 }
 
 .title {
@@ -239,7 +240,7 @@ font-size: 25px;
   -webkit-text-fill-color: transparent;
 }
 .title2 {
-  background: linear-gradient(to left, #d6aee8 65%,  #7112c9 100%);
+  background: linear-gradient(to left, #d6aee8 65%, #7112c9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -272,29 +273,24 @@ img.next-image {
     grid-template-columns: auto;
   }
 
-  .footicon{
+  .footicon {
     margin-left: 6rem;
     gap: 0.25rem;
-    
   }
-  .boxicon{
+  .boxicon {
     flex-wrap: wrap;
     gap: 1.5rem;
   }
- 
-  .boxiconin2{
+
+  .boxiconin2 {
     margin-left: 5px;
     color: rgb(203, 203, 203);
-  
   }
-  .boxiconin2:hover{
+  .boxiconin2:hover {
     color: #eb800d;
     text-decoration: underline #eb800d;
-  
   }
-  .boxiconin3:hover{
+  .boxiconin3:hover {
     color: #eb800d;
-  
   }
-
 }

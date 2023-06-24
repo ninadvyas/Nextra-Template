@@ -22,7 +22,7 @@ export default {
            <a className='icon1'>
             <FaHandshake
               style={{
-                color: '#6e7e7e',
+                color: '#7g7g7f',
                 fontSize: '18.5px',
                 width: '30px',
                 marginTop:'3px'
