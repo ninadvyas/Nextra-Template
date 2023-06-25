@@ -46,12 +46,14 @@ h2 {
   font-variation-settings: 'wght' 750;
 }
 .btmmore {
-  text-decoration: underline;
+  text-decoration: none;
   width: 9rem;
 }
 .btmmore:hover {
-  color: #e1391b;
-}
+  background: linear-gradient(to right, #f3212f 20%, #ff6b08 47%, #ffffff 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  }
 .boxicon {
   display: flex;
   flex-direction: row;
@@ -96,6 +98,20 @@ h2 {
 .anchor:hover {
   text-decoration: underline #eb800d;
 }
+.anchor1 {
+  display: inline;
+  text-decoration: none;
+  background: linear-gradient(to bottom, #f3212f 20%, #ff6b08 50%, #ffffff 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+}
+.anchor1:hover {
+
+  background: linear-gradient(to top, #f3212f 20%, #ff6b08 50%, #ffffff 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 .sectionp {
   width: 19.5rem;
   height: 10rem;
@@ -113,38 +129,27 @@ h2 {
   font-size: 1.5rem;
   font-variation-settings: 'wght' 750;
 }
-.prinlink {
-  display: flex;
-  text-decoration: none;
-  background: linear-gradient(to right, #f32170, #ff6b08, #eedd44);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 
-}
-.prinlink:hover {
-  
-}
 .sectionp .prlink {
   display: flex;
   gap: 1rem;
   font-size: 19px;
   font-variation-settings: 'wght' 550;
   border-radius: 3%;
-  width: 145px;
+  width: 185px;
   text-align: center;
-}
-.prlink:hover{
-  background-color: white;
+
+  flex-direction: row;
 }
 .sectionp .prspan {
   font-size: 1rem;
   font-variation-settings: 'wght' 450;
 }
 .sectionp .icon {
-  margin-top: 2px;
-  font-size: 25px;
+  margin-top: 5px;
+  font-size: 21px;
   margin-left: 7px;
-  color: #ff6b08;
+  color: #ffffff;
 
 }
 
